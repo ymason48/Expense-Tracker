@@ -1,0 +1,85 @@
+<!doctype html>
+<functions.js>
+<html>
+
+<head>
+
+<title>TwoFactor</title>
+<style>
+ body {
+background-color: #F6D8CE ;
+margin: 28%; 
+padding: 15px 80px;
+
+text-align: center;
+Border: 3px solid black;
+1font-family: sans-serif;
+}
+{
+
+
+h1{
+text-align: center;
+font-family: serif;
+font-weight: normal; 
+text-transform: uppercase; 
+border-bottom: 1px solid #FF3434; 
+margin-top: 30px;
+}
+h2{
+text-align: center;
+font-family: serif;
+font-weight: normal; 
+text-transform: uppercase; 
+border-bottom: 1px solid #FF3434; 
+margin-top: 30px;
+}
+}
+</head>
+</style>
+<body>
+
+<div class= “container”>
+<titile>
+<h1> Two Factor Authentication </h1>
+</title>
+
+<form action="/sessions/check-2fa" method="POST">
+  <div>
+    <label for="Code">
+<h2>What was the name of your first pet?</h2>
+
+</label>
+<input
+  type="text"
+  name="Code"
+  id="Code"
+  inputmode="alphabet"
+  pattern="[a-z]*"
+autocomplete="one-time-code"
+/>
+
+<form action="/sessions/check-2fa" method="POST">
+  <div>
+    <label for="Code">
+<h2>What is your maiden name?</h2>
+
+
+
+</label>
+<input
+  type="text"
+  name="Code"
+  id="Code"
+  inputmode="alphabet"
+  pattern="[a-z]*"
+autocomplete="one-time-code"
+/>
+
+  </div>
+  <br><button type="submit">Continue</button></br>
+</form>
+</div> 
+ <script src="functions.js"></script>
+</body> 
+</html>
