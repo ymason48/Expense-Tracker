@@ -1,0 +1,23 @@
+#sWrapper
+{
+width:300px;
+margin:80px auto 0px auto;
+padding:10px;
+Border:2px solid black;
+border-radius:5px;
+-moz-border-radius:5px;
+-webkit-border-radius:5x;
+Text-align: center;
+}
+
+body {
+  font-family: "Courier New", sans-serif;
+  background-color: #F6D8CE;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+
+}
+
